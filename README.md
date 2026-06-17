@@ -49,6 +49,14 @@ After running this script, you will have the following files saved to your folde
 
 The **scan_subtraction_n.csv** files can be input into MERIT / Complete_Analysis.m script because they represent the difference between the empty (background) and full s-parameters.
 
+## Files in this repository
+
+| File | Description |
+|------|-------------|
+| [`SNP_CSV_iterative.m`](https://github.com/EMT-Lab/snp-to-csv-multiple-files/blob/main/SNP_CSV_iterative.m) | Converts .snp files to .csv files for easier processing in MERIT. |
+
+---
+
 ## Debugging
 It is helpful to check that the channels.csv and frequencies.csv match the parameters you set when you used the VNA.
 
